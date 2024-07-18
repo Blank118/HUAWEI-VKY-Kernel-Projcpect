@@ -67,5 +67,5 @@ jobs:
     - name: Upload KSU-Kernel
       uses: actions/upload-artifact@v4
       with:
-        name: Pangu_P10_KSU-EMUI9.1.0-kernel-${{ steps.get_time.outputs.TIME }}
+        name: P10Plus-KSU-Harmony-OS2.0-kernel-${{ steps.get_time.outputs.TIME }}
         path: "Pangu_P10_KSU-*.img"
