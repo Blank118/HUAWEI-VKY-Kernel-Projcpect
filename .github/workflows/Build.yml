@@ -42,3 +42,20 @@ jobs:
       id: get_time
       run: |
         echo "TIME=$(TZ=UTC-8 date +%m%d%H%M )" >> $GITHUB_OUTPUT
+
+    - name: Build Kernel
+      run: |
+       if [ -d include/config ];
+        then
+         echo "Find config,will remove it"
+         rm -rf include/config
+       else
+        echo "No Config,good."
+       fi
+
+       rm -rf KernelSU
+       rm -rf drivers/kernelsu
+       curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -s v0.9.2
+       export PATH=$(pwd)/ToolChains/bin/:$PATH
+       export ARCH=arm64
+       export SUBARCH=arm64
