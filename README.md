@@ -2,7 +2,7 @@
 # android_kernel_huawei_hi3660_HarmonyOS2.0_KernelSU
 **华为P10支持KernelSU自定义内核HarmonyOS2.0版本**  
 暂时没有使用盘古内核 
-***
+
 [下载统计](https://gra.caldis.me/?url=https://github.com/Blank118/HUAWEI-VKY-Kernel-Project)  
    
 ***
@@ -25,4 +25,5 @@
 # 创建者/贡献者： 
  + [麦麦观饭](https://github.com/maimaiguanfan) / [麒麟盘古内核](https://github.com/maimaiguanfan/android_kernel_huawei_hi3660/)：提（怂）议（勇）我使用鸿蒙内核源码进行编译
  + [kindle4jerry](https://github.com/Coconutat) : 帮我解决了导致编译失败的问题，提供了很多建议（readme和Action脚本全都是照着大大的改的）
+***  
 **愿君不负清空流水明月，一路上，遍地花开**  
